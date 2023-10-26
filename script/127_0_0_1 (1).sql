@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-10-2023 a las 03:16:36
+-- Tiempo de generación: 26-10-2023 a las 04:12:32
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 7.4.29
 
@@ -29,7 +29,7 @@ USE `rest-api`;
 -- Estructura de tabla para la tabla `libros`
 --
 -- Creación: 18-10-2023 a las 18:37:34
--- Última actualización: 19-10-2023 a las 01:01:34
+-- Última actualización: 26-10-2023 a las 00:59:16
 --
 
 CREATE TABLE `libros` (
@@ -47,7 +47,9 @@ CREATE TABLE `libros` (
 
 INSERT INTO `libros` (`id`, `nombre`, `autor`, `categoria`, `anio_publicacion`, `isbn`) VALUES
 (1, 'Este dolor no es mio', 'Mark Wolynn', 'Autoayuda', '2017-09-15', '8484456811'),
-(2, 'Cien años de soledad', 'Gabriel Garcia Marquez', 'Novela', '1967-06-05', '12344455566');
+(2, 'Cien años de soledad', 'Gabriel Garcia Marquez', 'Novela', '1967-06-05', '12344455566'),
+(3, 'Caos', 'Magalí Tajes', 'Autoayuda', '2015-10-10', '129796986'),
+(7, 'Probando la actualización', 'Juajua', 'Wee', '2010-09-09', '9944444');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
